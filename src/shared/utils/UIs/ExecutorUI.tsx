@@ -135,8 +135,8 @@ class ExecutorUI extends Component<ExeProps, ExeStates> {
 								Size={new UDim2(0.9, 0, 0, 50)}
 								Position={new UDim2(0.05, 0, 0, 70)}
 								min={0}
-								max={5}
-								unit={0.05}
+								max={0.5}
+								unit={0.01}
 								Text="Air Resistance"
 								changed={(val: number) => {
 									this.props.changed("AirResistance", val);
